@@ -1,1 +1,1 @@
-# Mail-Chip-app
+# Newsletter Signup
