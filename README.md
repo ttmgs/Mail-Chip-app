@@ -8,5 +8,5 @@ This Newsletter app uses API to suscribed you newsletters you will recieve from 
 - Mailchimp API
 - ExpressJS
 - HTML
-- CSSS
+- CSS
 - Bootstrap
