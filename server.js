@@ -26,6 +26,7 @@ app.get('/', function(req, res) {
 
 
 
+
 app.post('/', (req, res) => {
 
   const firstName = req.body.fName
@@ -70,6 +71,15 @@ const request = https.request(url, options, function(response) {
 request.write(jsonData)
 request.end();
 });
+
+
+
+app.post("/failure", (req, res) => {
+  res.redirect('/')
+});
+
+
+
 
 
 // live port
